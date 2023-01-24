@@ -2,10 +2,22 @@ package com.example.android_developement_kotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 
 class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
+        var login=findViewById<Button>(R.id.login);
+
+
+
+
+        login.setOnClickListener(){
+
+            Toast.makeText(this,"Enter Email,Password",Toast.LENGTH_SHORT).show();
+        }
     }
 }

@@ -40,6 +40,18 @@
         android:textColor="@color/white"
         android:layout_marginBottom="50dp"
         android:layout_marginTop="2dp" />
+    <Button
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="show Alert"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        />
+
+
     <TextView
         android:id="@+id/Text1"
         android:layout_width="wrap_content"
