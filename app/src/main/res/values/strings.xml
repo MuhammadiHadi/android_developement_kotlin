@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">android_developement_kotlin</string>
     <string name="text_main">Development with Kotlin</string>
+
+
 </resources>
