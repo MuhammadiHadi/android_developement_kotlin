@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
 
 
                 Handler(Looper.getMainLooper()).postDelayed({
-
-            intent= Intent(this,splash_view::class.java)
+                    intent= Intent(this,splash_view::class.java)
             startActivity(intent)
+                    finish()
         },3000)
     }
 }
