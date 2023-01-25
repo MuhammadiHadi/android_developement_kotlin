@@ -11,16 +11,10 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-        var login=findViewById<Button>(R.id.login);
-
-
-
-
+        val login=findViewById<Button>(R.id.login)
         login.setOnClickListener(){
-
             Toast.makeText(this,"Enter Email,Password",Toast.LENGTH_SHORT).show();
-
-            intent =Intent(this,MainActivity3::class.java);
+            val intent =Intent(this,MainActivity3::class.java);
             startActivity(intent);
         }
     }
